@@ -45,7 +45,7 @@ Este proyecto permite:
 
 (Opcional) Crear y activar entorno virtual
 
-bash
+ ```bash
 Copiar
 Editar
 python -m venv venv
@@ -55,7 +55,7 @@ venv\Scripts\activate
 source venv/bin/activate
 Instalar dependencias
 
-bash
+ ```bash
 Copiar
 Editar
 pip install -r requirements.txt
@@ -75,7 +75,7 @@ dlib
 numpy
 playsound==1.2.2
 🏗️ Estructura del proyecto
-bash
+ ```bash
 Copiar
 Editar
 mi_proyecto/
@@ -93,7 +93,7 @@ mi_proyecto/
 🚀 Uso
 Ejecuta:
 
-bash
+ ```bash
 Copiar
 Editar
 python app.py
