@@ -1,0 +1,30 @@
+# Ignore the virtual environment
+venv/
+ENV/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore backup files
+*.bak
+*.swp
+
+# Ignore face encodings
+encodings.pickle
+
+# Ignore known faces (captured photos)
+known_faces/
+
+# Ignore audio files
+*.mp3
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
