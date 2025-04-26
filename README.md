@@ -43,7 +43,7 @@ Este proyecto permite:
 
 
 
-(Opcional) Crear y activar entorno virtual
+**(Opcional) Crear y activar entorno virtual**
 
  ```bash
 Copiar
@@ -65,6 +65,7 @@ Coloca un archivo new_person.mp3 en la raíz del proyecto.
 
 Puede ser un “beep” o cualquier alerta corta.
 
+
 📝 requirements.txt
 text
 Copiar
@@ -74,8 +75,10 @@ face_recognition
 dlib
 numpy
 playsound==1.2.2
+
 🏗️ Estructura del proyecto
- ```bash
+
+```bash
 Copiar
 Editar
 mi_proyecto/
@@ -93,7 +96,7 @@ mi_proyecto/
 🚀 Uso
 Ejecuta:
 
- ```bash
+bash
 Copiar
 Editar
 python app.py
