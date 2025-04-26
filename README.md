@@ -114,21 +114,24 @@ Durante la ejecución, verás en pantalla tu rostro y, si ya estás registrado, 
 
 📈 Detalles técnicos
 
-Función	Cómo funciona
-Captura varias imágenes	Cada vez que detecta una persona nueva, captura 5 fotos automáticamente.
-Registro automático	Agrega el rostro al archivo encodings.pickle sin reiniciar.
-Contador de detecciones	Muestra “Nombre (N)” encima del rectángulo que rodea tu rostro.
-Sonido de detección	Reproduce new_person.mp3 cuando aparece una persona no registrada.
-Carpeta organizada	Crea known_faces/<Nombre>/ con todas las imágenes capturadas.
-Mejora del reconocimiento	Más imágenes = más precisión para identificar en el futuro.
+Función | Cómo funciona
+Captura varias imágenes | Captura 5 fotos cada vez que detecta una persona nueva.
+Registro automático | Agrega el rostro al archivo encodings.pickle sin reiniciar.
+Contador de detecciones | Muestra “Nombre (N)” encima del rectángulo que rodea el rostro.
+Sonido de detección | Reproduce new_person.mp3 para personas no registradas.
+Carpeta organizada | Crea known_faces/<Nombre>/ con todas las imágenes capturadas.
+Mejora del reconocimiento | Más imágenes = mayor precisión al identificar en el futuro.
+
+
 🛠️ Solución de problemas
 
-Problema	Solución
-cv2 no encontrado	pip install opencv-python
-playsound no encontrado	pip install playsound==1.2.2
-face_recognition o dlib fallo	Instalar wheel precompilados de dlib y face_recognition desde Gohlke (Windows)
-La ventana no aparece	Ejecuta en CMD o PowerShell estándar (no terminal de VSCode) y usa cv2.imshow() dentro del bucle.
-Cámara ocupada o no detectada	Cierra otras apps que usen la cámara o prueba cambiar el índice en VideoCapture(0) por 1.
+Problema | Solución
+cv2 no encontrado | Ejecuta pip install opencv-python.
+playsound no encontrado | Ejecuta pip install playsound==1.2.2.
+face_recognition o dlib falla | Instala los .whl precompilados de dlib y face_recognition desde Gohlke.
+Ventana no aparece | Usa CMD o PowerShell estándar (no terminal integrada). Asegúrate de que cv2.imshow() esté dentro del bucle principal.
+Cámara ocupada/no detectada | Cierra otras apps que usen la cámara o cambia el índice en VideoCapture(0) a 1, etc.
+
 📜 Licencia
 Este proyecto es de código abierto.
 Puedes usarlo, modificarlo y distribuirlo libremente para fines educativos o personales.
